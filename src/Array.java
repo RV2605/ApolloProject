@@ -65,7 +65,7 @@ public class Array {
         }
         char [] arr1 = {'v','i','n','o','t','h'};
         System.out.println(Arrays.toString(arr1));
-
+        System.out.println("hell there");
 
 
     }
