@@ -12,12 +12,15 @@ public class BankInterface {
         System.out.println("withdrawal --------OR--------- deposit");
         Scanner sc = new Scanner(System.in);
         String operation = sc.next();
+        int amt;
         if (operation.toLowerCase().equals("withdrawal")){
             ba.amountWithdrawal();
             System.out.println("your Balance is " + ba.getBalance());
         }
         else if (operation.toLowerCase().equals("deposit")) {
-            ba.amountDeposit();
+            System.out.println("Enter the amount you want to deposit");
+            amt= sc.nextInt();
+            ba.amountDeposit(amt);
 
         }
         else {

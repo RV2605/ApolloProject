@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ad5d00a7-3912-46ec-89f2-03eb1c713992" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Banking/BankInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Banking/BankInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Banking/Customer/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Banking/Customer/BankAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BankInterface">
+  <component name="RunManager" selected="Application.Rbcbank">
     <configuration name="BankInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Banking.BankInterface" />
       <module name="FirstJava" />
@@ -81,16 +83,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NewDemo" />
+    <configuration name="Rbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Banking.Customer.Rbc" />
       <module name="FirstJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Banking.Customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Star" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Star" />
+    <configuration name="Rbcbank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Banking.Customer.Rbcbank" />
       <module name="FirstJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Banking.Customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Rbcbank" />
+        <item itemvalue="Application.Rbc" />
         <item itemvalue="Application.BankInterface" />
         <item itemvalue="Application.Mobile.MobilePurchase" />
         <item itemvalue="Application.StringDemo" />
-        <item itemvalue="Application.NewDemo" />
-        <item itemvalue="Application.Star" />
       </list>
     </recent_temporary>
   </component>

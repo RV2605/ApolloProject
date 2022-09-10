@@ -6,6 +6,10 @@ public class BankAccount {
     private int amount;
     private double balance = 5000.00;
 
+    public BankAccount() {
+        System.out.println("in Bank account");
+    }
+
     public BankAccount(String userName, int accountNumber, int amount) {
         this.userName = userName;
         this.accountNumber = accountNumber;
@@ -61,7 +65,7 @@ public class BankAccount {
            System.out.println("Insufficient Funds");
        }
     }
-    public void amountDeposit(){
+    public void amountDeposit(int amount){
         balance =balance+ amount;
         System.out.println("your Updated balance is " + balance);
     }
