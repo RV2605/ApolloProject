@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class BankInterface {
 
     public static void main(String[] args) {
+        int sal;
         BankAccount ba = new BankAccount("Vinoth",557798,550);
         System.out.println(ba);
         System.out.println("Please enter the operation you want to perform");
@@ -17,7 +18,9 @@ public class BankInterface {
             System.out.println("your Balance is " + ba.getBalance());
         }
         else if (operation.toLowerCase().equals("deposit")) {
-            ba.amountDeposit();
+            System.out.println("Enter the amount you want to deposit");
+            sal=sc.nextInt();
+            ba.amountDeposit(sal);
 
         }
         else {
